@@ -5,7 +5,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: white;
+    background: rgb(211, 210, 210);
     color: black;
     line-height: 1.5;
 }
@@ -41,7 +41,7 @@ nav ul li a:hover{
 .hero{
     padding: 50px 20px;
     text-align: center;
-    background: lightblue;
+    background: rgb(177, 179, 179);
 }
 .hero h2{
     font-size: 36px;
@@ -66,11 +66,11 @@ section h2{
     gap: 10px;
 }
 .skill-card{
-    background: lightblue;
+    background: rgb(234, 231, 224);
     padding: 20px;
     border-radius: 8px;
     text-align: center;
-    border: 2px solid darkblue;
+    border: 2px solid rgb(8, 8, 9);
     text-align: center;
 }
 .skill-card:hover{
@@ -83,10 +83,16 @@ section h2{
     gap:20px;
 }
 .project-card{
-    background: lightblue;
+    background: rgb(227, 222, 200);
     padding: 20px;
     border-radius: 8px;
-    border: 2px solid darkblue;
+    text-align: center;
+    border: 2px solid rgb(8, 8, 9);
+    text-align: center;
+}
+.project-card:hover{
+    transform: scale(1);
+    box-shadow:0px 8px 20px rgba(0, 0, 0, 0.2);
 }
 #skills{
     background-color: gray;
@@ -100,7 +106,7 @@ section h2{
 form input{
     width: 100%;
     padding: 12px;
-    background-color: azure;
+    background-color: rgb(216, 232, 232);
     color: black;
     margin-top: 5px;
     margin-bottom: 15px;
@@ -110,4 +116,18 @@ form input{
 footer{
     background: black;
     color: white;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 16px;
+    border: 2px solid black;
+    background: rgb(62, 84, 227);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(155, 188, 185);
 }
